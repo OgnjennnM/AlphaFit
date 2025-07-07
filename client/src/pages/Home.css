@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f6f7f9;
+  color: #111;
+}
+
+.hero {
+  display: flex;
+  padding: 4rem;
+  background: linear-gradient(to right, #f6f7f9 50%, #2563eb 50%);
+  color: #0f172a;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+}
+
+.hero-btn {
+  margin-top: 2rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #1e40af;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* === Ratings Section === */
+
+.ratings {
+  background-color: #e2e8f0;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.ratings h2 {
+  margin-bottom: 2rem;
+}
+
+.ratings .card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.ratings .card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* === Gym Gallery Section === */
+
+.gym {
+  background-color: #f8fafc;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.gym h2 {
+  margin-bottom: 2rem;
+}
+
+.gym-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.gym-gallery img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* === Plans Section === */
+
+.plans {
+  background-color: #e5e7eb;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.plans h2 {
+  margin-bottom: 2rem;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card.plan {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card.plan:hover,
+.card.plan.selected {
+  border: 2px solid #2563eb;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card.plan h3 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.card.plan p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.card.plan strong {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Utility Classes */
+
+.selected {
+  border: 2px solid #2563eb;
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
+}

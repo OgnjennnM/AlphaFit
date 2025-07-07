@@ -1,0 +1,53 @@
+.promotions-container {
+  padding: 2rem;
+}
+
+.promotion-form {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.promotion-form input[type="file"],
+.promotion-form input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.promotion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.promotion-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.promotion-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+/* Plavo dugme */
+.blue-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.blue-btn:hover {
+  background-color: #1d4ed8;
+}

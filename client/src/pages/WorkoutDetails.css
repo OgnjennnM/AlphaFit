@@ -1,0 +1,40 @@
+.workout-details {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.workout-details h2 {
+  margin-bottom: 1rem;
+  color: #2563eb;
+}
+
+.workout-details p {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.start-btn {
+  padding: 0.6rem 1.5rem;
+  background-color: #22c55e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.start-btn:hover {
+  background-color: #16a34a;
+}
+
+.loading, .not-found {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
